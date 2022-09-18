@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;0,700;1,600;1,900&display=swap');
+
+.App {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+h1 {
+    color: white;
+}
+
+.Header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 130, 244);
+}
+
+
+.allInput {
+    text-align: center;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 3%;
+    max-width: 800px;
+    border-radius: 20px;
+    border: solid 2px rgb(0, 130, 244);
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px rgb(0, 130, 244);
+}
+
+.input0 {
+    width: 80%;
+    max-width: 300px;
+    outline: none;
+    margin-top: 2%;
+    border: none;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 130, 244);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline-start: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.input1 {
+    width: 80%;
+    max-width: 300px;
+    outline: none;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 130, 244);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline-start: 10px;
+    margin-top: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.input3 {
+    width: 87%;
+    max-width: 320px;
+    outline: none;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 130, 244);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-family: 'Poppins', sans-serif;
+    padding-inline-start: 5px;
+
+}
+
+.input5 {
+    color: white;
+    width: 80%;
+    max-width: 320px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 130, 244);
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 15px;
+
+}
+
+#baslik {
+    background-color: rgb(0, 130, 244);
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input::placeholder {
+    color: black;
+}
+
+#plan {
+    width: 80%;
+    max-width: 900px;
+    margin-top: 5%;
+    border-collapse: collapse;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 5%;
+    background-color: rgb(0, 130, 244);
+    box-shadow: 10px 10px rgb(0, 130, 244);
+}
+
+#plan td {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px rgb(0, 39, 72);
+    background-color: white;
+
+
+}
+
+#plan th {
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#plan tr {
+    border-radius: 5px;
+    border-radius: 10px;
+}
+
+#plan th {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 130, 244);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#output {
+    margin-top: 10%;
+    max-width: 900px;
+    border-collapse: collapse;
+    font-size: 15px;
+    box-shadow: 10px 10px rgb(0, 130, 244);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(0, 130, 244);
+}
+
+#output td {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 1px rgb(0, 39, 72);
+    background-color: white;
+
+}
+
+#output th {
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+#output tr {
+    border-radius: 5px;
+    border-radius: 10px;
+}
+
+#output th {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 130, 244);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#themeButton {
+    margin-left: 20%;
+    float: right;
+    background-color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}

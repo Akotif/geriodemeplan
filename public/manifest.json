@@ -1,0 +1,11 @@
+{
+  "short_name": "React App",
+  "name": "Kredi Geri Odeme Plani",
+  "icons": [
+  ],
+  
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
